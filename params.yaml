@@ -1,0 +1,8 @@
+prepare:
+  lag_days: [1, 7, 14]
+  rolling_window: 7
+  test_size: 0.2
+train:
+  n_estimators: 200
+  max_depth: 10
+  seed: 42

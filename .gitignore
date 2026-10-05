@@ -1,0 +1,13 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Generated pipeline outputs are tracked by DVC.
+
+# Local editor and environment files
+.vscode/
+.idea/
+.env
